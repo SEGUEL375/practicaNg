@@ -1,0 +1,13 @@
+<h3>JEEP® CHEROKEE LIMITED/LIBERTY.</h3>
+
+<div class="contenedor">
+
+    <body>
+        <p-carousel [value]="carouseldos" styleClass="custom-carouseldos" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+            <ng-template let-carouseldos pTemplate="item">
+                <img src="{{carouseldos.imagen}}" height="360">
+            </ng-template>
+        </p-carousel>
+    </body>
+
+</div>

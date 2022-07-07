@@ -1,0 +1,45 @@
+{
+    "data": [{
+            "imagen": "assets/carouseltres/1.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/2.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/3.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/4.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/5.jpg"
+        },
+
+        {
+            "imagen": "assets/carouseltres/6.jpg"
+        },
+
+        {
+            "imagen": "assets/carouseltres/7.jpg"
+        },
+
+        {
+            "imagen": "assets/carouseltres/8.jpg"
+        },
+
+        {
+            "imagen": "assets/carouseltres/9.jpg"
+        },
+
+        {
+            "imagen": "assets/carouseltres/10.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/11.jpg"
+        },
+        {
+            "imagen": "assets/carouseltres/12.jpg"
+        }
+    ]
+
+}

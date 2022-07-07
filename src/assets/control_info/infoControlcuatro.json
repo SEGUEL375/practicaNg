@@ -1,0 +1,46 @@
+{
+    "data": [{
+            "imagen": "assets/carouselcuatro/1.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/2.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/3.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/4.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/5.jpg"
+        },
+
+        {
+            "imagen": "assets/carouselcuatro/6.jpg"
+        },
+
+        {
+            "imagen": "assets/carouselcuatro/7.jpg"
+        },
+
+        {
+            "imagen": "assets/carouselcuatro/8.jpg"
+        },
+
+        {
+            "imagen": "assets/carouselcuatro/9.jpg"
+        },
+
+        {
+            "imagen": "assets/carouselcuatro/10.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/11.jpg"
+        },
+        {
+            "imagen": "assets/carouselcuatro/12.jpg"
+        }
+
+    ]
+
+}

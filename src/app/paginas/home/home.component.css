@@ -1,0 +1,59 @@
+div.contenedor {background-color:#212121; padding:120px;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 100%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+/*Instagram*/
+.icon:hover {
+    background-color:#e60073;
+    box-shadow:  0 0 50px #e60073;
+}
+/*Twitter*/
+.icon:hover:nth-child(2) {
+    background-color:rgba(9, 93, 139, 0.87);
+    box-shadow:  0 0 20px #;
+}
+/*Wathsapp*/
+.icon:hover:nth-child(3) {
+    background-color:rgba(9, 93, 139, 0.87);
+    box-shadow: 0 0 20px #;
+}
+/*Facebook*/
+.icon:hover:nth-child(4) {
+    background-color:;
+    box-shadow:  0 0 20px #;
+}
+
+
+.icon i {
+   
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+

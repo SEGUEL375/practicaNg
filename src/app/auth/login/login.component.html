@@ -1,0 +1,53 @@
+<html>
+<div class="contenedor">
+
+
+    <head>
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+    </head>
+
+    <body id="LoginForm">
+        <div class="container">
+
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2><u>Inicio de Sesión</u></h2>
+                        <p>Por favor, introduzca su correo electrónico y contraseña</p>
+                    </div>
+
+
+                    <!--Login Form -->
+                    <form [formGroup]="formularioLogin">
+
+                        <p *ngIf='logueado'>{{email}}</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="username" formControlName='username'>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" formControlName='password'>
+                        </div>
+                        <div class="forgot">
+                        </div>
+                        <button type="submit" class="btn btn-primary" (click)="iniciarSesion() ">Iniciar</button>
+                        <div class="forgot ">
+                        </div>
+                        <button pe="submit" class="btn btn-dark " (click)="cerrarSesion()">Cerrar Sesion</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </body>
+</div>
+
+</html>

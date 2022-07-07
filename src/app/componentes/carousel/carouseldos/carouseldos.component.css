@@ -1,0 +1,12 @@
+div.contenedor {background-color:#212121; padding:150px;}
+
+
+body{
+    background-image:url("/assets/carouseldos/jeep.portada2.jpg"); padding:70px;
+}
+img{
+    padding-inline-start: 190px;
+   }
+h3{
+    text-align:center;
+}

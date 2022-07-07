@@ -1,0 +1,16 @@
+{
+    "data": [{
+            "imagen": "assets/carousel/jeep.portada.png"
+        },
+        {
+            "imagen": "assets/carousel/jeeplimited.jpg"
+        },
+        {
+            "imagen": "assets/carousel/jeeprenegade.jpeg"
+        },
+        {
+            "imagen": "assets/carousel/jeeprubicon.jpg"
+        }
+    ]
+
+}

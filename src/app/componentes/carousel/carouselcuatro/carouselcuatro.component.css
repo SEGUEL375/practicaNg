@@ -1,0 +1,15 @@
+div.contenedor {background-color:#212121; padding:120px;}
+
+
+img{
+    padding-inline-start: 170px;
+    
+   }
+
+h3{
+    text-align:center;
+}
+body{
+    background-image:url("/assets/carouselcuatro/portada.jpg"); padding:180px;
+   
+}

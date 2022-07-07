@@ -1,0 +1,16 @@
+<html>
+
+<h3>JEEP® WRANGLER RUBICON</h3>
+<div class="contenedor">
+
+    <body>
+        <p-carousel [value]="carouselcuatro" styleClass="custom-carouselcuatro" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+            <ng-template let-carouselcuatro pTemplate="item">
+                <img src="{{carouselcuatro.imagen}}" height="360">
+            </ng-template>
+        </p-carousel>
+
+    </body>
+</div>
+
+</html>

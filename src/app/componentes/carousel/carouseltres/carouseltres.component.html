@@ -1,0 +1,11 @@
+<h3>JEEP® RENEGADE</h3>
+
+
+
+<body>
+    <p-carousel [value]="carouseltres" styleClass="custom-carouseltres" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+        <ng-template let-carouseltres pTemplate="item">
+            <img src="{{carouseltres.imagen}}" height="360">
+        </ng-template>
+    </p-carousel>
+</body>

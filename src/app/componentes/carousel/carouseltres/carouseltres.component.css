@@ -1,0 +1,12 @@
+
+
+
+body{
+    background-image:url("/assets/carouseltres/portada.jpg"); padding:70px;
+}
+img{
+    padding-inline-start: 360px;
+   }
+h3{
+    text-align:center;
+}
